@@ -1,0 +1,10 @@
+{
+  "config": {
+    "executors": [
+      {
+        "id": "shell_default",
+        "type": "runnerty-executor-shell"
+      }
+    ]
+  }
+}
