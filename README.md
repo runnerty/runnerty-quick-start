@@ -21,6 +21,7 @@ git clone https://github.com/Coderty/runnerty-quick-start
 Go to the directory  
 ```bash
 cd runnerty-quick-start
+npm install
 ```
 
 Run Runnerty
