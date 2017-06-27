@@ -1,5 +1,5 @@
 ## Prerequisites
-This project have dependencies that require Runnerty 1.0.0, node 7.7.1 and NPM 3 or higher
+This project have dependencies that require Runnerty 0.1.0, node 8 and NPM 3 or higher
 
 ```bash 
 npm i -g runnerty
