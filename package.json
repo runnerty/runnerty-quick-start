@@ -15,7 +15,7 @@
   "author": "Coderty",
   "license": "MIT",
   "dependencies": {
-    "@runnerty/executor-shell": "^0.0.3",
-    "@runnerty/notificator-mail": "^0.0.3"
+    "@runnerty/executor-shell": "latest",
+    "@runnerty/notificator-mail": "latest"
   }
 }
