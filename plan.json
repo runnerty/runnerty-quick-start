@@ -27,7 +27,7 @@
             {
               "file_name":"./test.log",
               "write":[
-                "> EXEC :PROCESS_ID - :DD-:MM-:YY :HH::mm::ss: RETURN: :PROCESS_MSG_OUTPUT"
+                "> EXEC :PROCESS_ID - :DD-:MM-:YY :HH::mm::ss: RETURN: :PROCESS_EXEC_MSG_OUTPUT"
               ],
               "concat":true,
               "maxsize":"10mb"
