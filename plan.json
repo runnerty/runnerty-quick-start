@@ -7,9 +7,9 @@
       "end_date":"2099-11-01T00:00:00.00Z",
       "schedule_interval":"*/1 * * * *",
       "depends_chains":[],
-      "events":{
-        "on_start":{},
-        "on_end":{}
+      "notifications":{
+        "on_start":[],
+        "on_end":[]
       },
       "processes":[
         {
@@ -33,11 +33,11 @@
               "maxsize":"10mb"
             }
           ],
-          "events":{
-            "on_start":{},
-            "on_fail":{},
-            "on_retry":{},
-            "on_end":{}
+          "notifications":{
+            "on_start":[],
+            "on_fail":[],
+            "on_retry":[],
+            "on_end":[]
           }
         }
       ]
