@@ -6,7 +6,7 @@
       "start_date":"2017-04-01T00:00:00.00Z",
       "end_date":"2099-11-01T00:00:00.00Z",
       "schedule_interval":"*/1 * * * *",
-      "depends_chains":[],
+      "depends_chains":{},
       "notifications":{
         "on_start":[],
         "on_end":[]
