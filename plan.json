@@ -3,31 +3,26 @@
     {
       "id":"CHAIN_ONE",
       "name":"Chain one sample",
-      "start_date":"2017-04-01T00:00:00.00Z",
-      "end_date":"2099-11-01T00:00:00.00Z",
-      "schedule_interval":"*/1 * * * *",
-      "depends_chains":{},
-      "notifications":{
-        "on_start":[],
-        "on_end":[]
-      },
+      "triggers":[
+        {
+          "id":"schedule_dafault",
+          "schedule_interval":"*/1 * * * *"
+        }
+      ],
       "processes":[
         {
           "id":"PROCESS_ONE",
           "name":"Proccess One",
-          "depends_process":[],
           "exec":{
             "id":"shell_default",
-            "command":"echo Runnerty: hello word!"
+            "command":"echo Runnerty: hello world!"
           },
-          "retries":0,
-          "retry_delay":0,
           "end_chain_on_fail":true,
           "output":[
             {
               "file_name":"./test.log",
               "write":[
-                "> EXEC :PROCESS_ID - :DD-:MM-:YY :HH::mm::ss: RETURN: :PROCESS_EXEC_MSG_OUTPUT"
+                "EXECUTION @GETVALUE(PROCESS_ID) - AT @GETDATE('YYYY-MM-DD HH:mm:ss')\n @GETVALUE(PROCESS_EXEC_MSG_OUTPUT)"
               ],
               "concat":true,
               "maxsize":"10mb"

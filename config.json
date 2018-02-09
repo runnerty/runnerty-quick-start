@@ -1,5 +1,11 @@
 {
   "config": {
+    "triggers": [
+      {
+        "id":"schedule_dafault",
+        "type":"@runnerty-trigger-schedule"
+      }
+    ],
     "executors": [
       {
         "id": "shell_default",
