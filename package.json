@@ -16,7 +16,6 @@
   "license": "MIT",
   "dependencies": {
     "@runnerty/trigger-schedule": "latest",
-    "@runnerty/executor-shell": "latest",
-    "@runnerty/notifier-mail": "latest"
+    "@runnerty/executor-shell": "latest"
   }
 }
