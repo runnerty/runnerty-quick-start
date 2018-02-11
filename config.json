@@ -1,16 +1,14 @@
 {
-  "config": {
-    "triggers": [
-      {
-        "id":"schedule_dafault",
-        "type":"@runnerty-trigger-schedule"
-      }
-    ],
-    "executors": [
-      {
-        "id": "shell_default",
-        "type": "@runnerty-executor-shell"
-      }
-    ]
-  }
+  "triggers": [
+    {
+      "id":"schedule_dafault",
+      "type":"@runnerty-trigger-schedule"
+    }
+  ],
+  "executors": [
+    {
+      "id": "shell_default",
+      "type": "@runnerty-executor-shell"
+    }
+  ]
 }
