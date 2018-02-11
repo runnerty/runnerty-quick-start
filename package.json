@@ -17,6 +17,6 @@
   "dependencies": {
     "@runnerty/trigger-schedule": "latest",
     "@runnerty/executor-shell": "latest",
-    "@runnerty/notificator-mail": "latest"
+    "@runnerty/notifier-mail": "latest"
   }
 }
