@@ -17,6 +17,7 @@ From your command line:
 ```bash
 # Install runnerty
 npm i -g runnerty
+
 # You can check the correct instalation with the command  
 runnerty --version
 ```
@@ -26,10 +27,13 @@ Note: It's possible that you have to use super user permissions. More: [fix npm 
 ```bash
 # Clone this repository
 git clone https://github.com/runnerty/runnerty-quick-start
+
 # Go into the repository
 cd runnerty-quick-start
+
 # Install dependencies
 npm install
+
 # Run the example
 runnerty
 ```

@@ -17,7 +17,9 @@
             "id":"shell_default",
             "command":"echo Runnerty: hello world!"
           },
-          "end_chain_on_fail":true,
+          "chain_action_on_fail": {
+            "action": "end"
+            },
           "output":[
             {
               "file_name":"./test.log",
