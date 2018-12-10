@@ -10,5 +10,11 @@
       "id": "shell_default",
       "type": "@runnerty-executor-shell"
     }
+  ],
+  "notifiers": [
+    {
+      "id": "console_default",
+      "type": "@runnerty-notifier-console"
+    }
   ]
 }
