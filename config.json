@@ -1,8 +1,8 @@
 {
   "triggers": [
     {
-      "id":"schedule_dafault",
-      "type":"@runnerty-trigger-schedule"
+      "id": "schedule_default",
+      "type": "@runnerty-trigger-schedule"
     }
   ],
   "executors": [
