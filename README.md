@@ -10,7 +10,7 @@ A basic Runnerty planification needs just these files:
 
 ## To Use
 
-To clone and run this repository you'll need [Git](https://git-scm.com), [Node.js 10.20.1](https://nodejs.org/en/download/) or higher and [Runnerty 2.6.0](https://github.com/runnerty/runnerty) installed on your computer.
+To clone and run this repository you'll need [Git](https://git-scm.com), [Node.js 12.16.3](https://nodejs.org/en/download/) or higher and [Runnerty 2.6.0](https://github.com/runnerty/runnerty) installed on your computer.
 
 From your command line:
 
