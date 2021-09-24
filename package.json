@@ -19,7 +19,7 @@
   "author": "Coderty",
   "license": "MIT",
   "dependencies": {
-    "@runnerty/executor-shell": "^1.0.2",
+    "@runnerty/executor-shell": "^3.1.1",
     "@runnerty/notifier-console": "^1.0.0",
     "@runnerty/trigger-schedule": "0.0.1"
   },
