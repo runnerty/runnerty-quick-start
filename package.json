@@ -19,9 +19,9 @@
   "author": "Coderty",
   "license": "MIT",
   "dependencies": {
-    "@runnerty/executor-shell": "^1.0.2",
+    "@runnerty/executor-shell": "^1.0.3",
     "@runnerty/notifier-console": "^1.0.0",
-    "@runnerty/trigger-schedule": "0.0.1"
+    "@runnerty/trigger-schedule": "3.0.1"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
